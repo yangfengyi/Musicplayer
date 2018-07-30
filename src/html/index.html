@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MusciPlayer</title>
+	<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="song-img">
+			<div class="img-wrapper">
+				<img>
+			</div>
+		</div>
+		<div class="song-info">
+			<!-- <div class="song-name">演员</div>
+			<div class="singer-name">邓哥</div>
+			<div class="album-name">意外</div> -->
+		</div>
+
+		<!-- 进度条的实现方式 -->
+		<div class="pro">
+			<div class="cur-time">00:00</div>
+			<div class="pro-wrapper">
+				<div class="pro-bottom"></div>
+				<div class="pro-top">
+					<div class="slider-pointer"></div>
+				</div>
+			</div>
+			<div class="all-time">04:00</div>
+		</div>
+		<div class="control">
+			<div class="btn-wrapper like-btn"></div>
+			<div class="btn-wrapper prev-btn"></div>
+			<div class="btn-wrapper play-btn"></div>
+			<div class="btn-wrapper next-btn"></div>
+			<div class="btn-wrapper list-btn"></div>
+		</div>
+		<div class="list">
+			<div class="listHeader">播放列表</div>
+			<ul class="list-box">
+				<!-- <li class="list-item active">
+					<span class="list-song-name">丑八怪</span>
+					<span class="list-songer-name">-薛之谦</span>
+				</li> -->
+			</ul>
+			<div class="close">关闭</div>
+		</div>
+	</div>
+
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/process.js"></script>
+	<script src="../js/process.js"></script>
+	<script src="../js/gaussBlur.js"></script>
+	<script src="../js/audioControl.js"></script>
+	<script src="../js/controlManger.js"></script>
+	<script src="../js/render.js"></script>
+	<script src="../js/list.js"></script>
+	<script src="../js/index.js"></script>
+</body>
+</html>
